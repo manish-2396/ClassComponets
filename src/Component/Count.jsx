@@ -25,9 +25,9 @@ class Count extends Component {
     return (
       <div>
         <h1>{this.props.name}</h1>
-        <button onClick={() => this.handleClick("increase")}>increase</button>
-        <snap>{this.state.count}</snap>
         <button onClick={() => this.handleClick("decrease")}>decrease</button>
+        <snap>{this.state.count}</snap>
+        <button onClick={() => this.handleClick("increase")}>increase</button>
       </div>
     );
   }
