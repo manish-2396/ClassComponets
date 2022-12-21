@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class ClassComponent extends Component {
+class Count extends Component {
   constructor(props) {
     super(props);
 
@@ -33,4 +33,4 @@ class ClassComponent extends Component {
   }
 }
 
-export default ClassComponent;
+export default Count;
